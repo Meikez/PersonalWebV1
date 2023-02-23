@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,500&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+header div{
+    color:#1E0E62 ;
+}
+
+header a{
+    text-decoration: none;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    padding: 10px;
+}
+.presentation{
+    background-color: #242424;
+    display: flex;
+    padding: 40px;
+    justify-content:center;
+    flex-wrap: wrap;
+
+    
+}
+h1 {
+    color:#e3a81f ;
+    
+}
+/*
+.presentation :first-child(1){
+    width: 300px;
+    height: 500px;
+}*/
+
+.saludo{
+    width: 500px;
+    
+}
+.saludo p{color: white;padding-top: 20px;padding-bottom: 20px;}
+.saludo p,h1{
+    width: 300px;
+    text-align: left;
+    margin:auto;
+}
+.presentation div:last-of-type{
+    width: 500px;
+}
+.presentation img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+/*Habilidades*/
+.habilidades {
+    text-align: center;
+    background-color: #F1F1F1;
+    padding-bottom: 20px;
+    
+}
+.habilidades h2{
+    color:#1E0E62 ;
+    font-size: 30px;
+    margin-top:0 ;
+
+}
+.habilidades>p{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    color: rgba(47, 47, 47, 0.4);
+    
+}
+.skills>h3{
+    color:#1E0E62 ;
+    
+}
+.skills-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.skills{
+    width: 400px;
+    height: 150px;
+    /*border: solid 1px black;*/
+    border-bottom: solid 1px black;
+
+    padding: 5px;
+    margin-bottom: 10px;
+    color: rgba(30, 190, 166, 0.815);
+}
+
+
+/* EXPERIENCIA */
+
+.Expirience>div h2{
+   
+    font-size: 30px;
+    color:#1E0E62;
+}
+.experience-content{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Exp-title{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 100px;
+    padding: 10px;
+    background-color:rgba(30, 190, 166, 0.815) ;
+    color: white;
+    border-style: none;
+    width: 130px;
+}
+.card-exp{
+    width: 400px;
+    min-height: 200px;
+    padding: 20px;
+}
+.card-exp img{
+    padding: 5px;
+    width: 100%;
+    object-fit: cover;
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+}
+.card-exp h4{
+    color:#1E0E62;
+}
+.card-exp p{
+    color: rgba(119, 119, 119, 0.815);
+}
